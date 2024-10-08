@@ -129,10 +129,11 @@ img{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .second-r-r-card-container{
-  display:flex;
+  display: flex;
   flex-shrink: 1;
 }
 
@@ -146,9 +147,11 @@ img{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 .second-r-card-img-container{
   width: 110px;
   overflow: hidden;
+  height: 70px;
 }
 
 .second-r-card-img{
